@@ -1,0 +1,119 @@
+body {
+  font-family: "Open Sans";
+}
+header {
+  background-image: url(/Users/Chris/code/fewd/04_layout/images/header_bg.jpg);
+  background-size: cover;
+  height: 400px;
+  color: white;
+  font-family: arial;
+}
+h1 {
+  margin-left: 100px;
+  font-size: 60px;
+  font-family: "Open Sans";
+}
+h2 {
+  margin-left: 200px;
+  font-size: 55px;
+}
+.get {
+  border-radius: 5px;
+  border: none;
+  background-color: gold;
+  display: block;
+  margin: auto;
+  font-size: 24px;
+  color: midnightblue;
+}
+.middle {
+  background-color: midnightblue;
+  color: white;
+  font-size: 18px;
+}
+.middle:after {
+/* CLEARFIX */
+  content: "";
+  display: table;
+  clear: both;
+}
+.picture {
+  float: left;
+  width: 33%;
+  text-align: center;
+}
+#benefits {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+h3 {
+  color: midnightblue;
+  font-size: 40px;
+}
+.benefitclearfix:after {
+/* CLEARFIX */
+  content: "";
+  display: table;
+  clear: both;
+}
+.today {
+  float: left;
+  width: 50%;
+}
+.future {
+  float: left;
+  width: 50%;
+}
+#testimonial {
+  background-image: url(/Users/Chris/code/fewd/04_layout/images/testimonial_bg.jpg);
+  background-size: cover;
+  height: 400px;
+  font-size: 40px;
+  color: white;
+  text-align: center;
+}
+aside {
+  background-color: gold;
+  background-size: cover;
+}
+.sign {
+  border-radius: 5px;
+  border: none;
+  background-color: midnightblue;
+  display: block;
+  margin: auto;
+  font-size: 24px;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+footer {
+  background-color: black;
+  text-align: center;
+}
+h4 {
+  color: gold;
+  font-size: 56px;
+  margin: auto;
+  text-align: center;
+  padding-top: 20px;
+  font-family: "Open Sans";
+}
+.copyright {
+  color: white;
+}
+.footerimages:after {
+/* CLEARFIX */
+  content: "";
+  display: table;
+  clear: both;
+}
+.facebook {
+  padding-left: 600px;
+  float: left;
+}
+.twitter {
+  float: left;
+}

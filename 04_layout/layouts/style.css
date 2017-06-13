@@ -1,0 +1,109 @@
+* /* APPLIES TO EVERYTHING */{
+  box-sizing: border-box;
+}
+
+body {
+  color: white;
+  font-family: Arial;
+  font-size: 24px;
+}
+
+section {
+  padding: 100px;
+}
+
+.two-columns {
+  background: slategray;
+}
+.two-columns:after {
+/* CLEARFIX */
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.three-columns {
+  background: lightgray;
+}
+
+.three-columns:after {
+  /* CLEARFIX */
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.four-columns {
+  background: snow;
+}
+
+.four-columns:after {
+  /* CLEARFIX */
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.color {
+  height: 200px;
+}
+
+.red {
+  background: firebrick;
+  float: left;
+  width: 50%;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
+}
+
+.blue {
+  background: navy;
+  float: left;
+  width: 50%;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
+}
+
+.orange {
+  background: orange;
+  float: left;
+  width: 33%;
+}
+
+.yellow {
+  background: gold;
+  float: left;
+  width:33%;
+}
+
+.green {
+  background: forestgreen;
+  float: left;
+  width:33%;
+}
+
+.darkcyan {
+  background: darkcyan;
+  float: left;
+  width: 25%
+}
+
+.lightcoral {
+  background: lightcoral;
+  float: left;
+  width: 25%
+}
+
+.cadetblue {
+  background: cadetblue;
+  float: left;
+  width: 25%;
+}
+
+.darkolivegreen {
+  background: darkolivegreen;
+  float: left;
+  width: 25%;
+}
