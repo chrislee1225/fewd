@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Pokeblog</title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <header>
+      <img class="header-image" src="./images/gold-silver.jpg" alt="Pokemon Gold and Silver">
+    </header>
+
+    <section class="sign-up">
+      <h2 class="sign-up-heading">Coming Soon!</h2>
+      <p class="sign-up-description">Be the first to hear updates on these amazing games</p>
+
+      <form class="sign-up-form">
+        <fieldset>
+          <legend>Personal Information</legend>
+
+          <div class="sign-up-field">
+            <label for="first_name">First Name</label>
+            <input type="text" name="first_name">
+          </div>
+
+          <div class="sign-up-field">
+            <label for="last_name">Last Name</label>
+            <input type="text" name="last_name">
+          </div>
+
+          <div class="sign-up-field">
+            <label for="email_address">Email Address</label>
+            <input type="email" name="email_address" required>
+          </div>
+
+          <div class="sign-up-field">
+            <label for="birthday">Birthday</label>
+            <input type="date" name="birthday">
+          </div>
+
+          <div class="sign-up-field">
+            <label for="country">Select your country</label>
+            <select name="country">
+              <option value="japan">Japan</option>
+              <option value="usa">United States</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Pokemon Survey</legend>
+
+          <div class="sign-up-field">
+            <label for="experience">How many years have you been playing Pokemon?</label>
+            <input type="number" name="experience">
+          </div>
+
+          <div class="sign-up-field">
+            <p>
+              <strong>Which game are you more excited for?</strong>
+            </p>
+
+            <label class="inline-label">
+              <input type="radio" name="favorite_game" value="silver">
+              Pokemon Silver
+            </label>
+
+            <label class="inline-label">
+              <input type="radio" name="favorite_game" value="gold">
+              Pokemon Gold
+            </label>
+          </div>
+
+          <div class="sign-up-field">
+            <p>
+              <strong>What will you spend your time doing?</strong>
+            </p>
+
+            <label class="inline-label">
+              <input type="checkbox" name="activities" value="training">
+              Training my Pokemon
+            </label>
+
+            <label class="inline-label">
+              <input type="checkbox" name="activities" value="catching">
+              Catching all the Pokemon
+            </label>
+
+            <label class="inline-label">
+              <input type="checkbox" name="activities" value="exploring">
+              Exploring the world
+            </label>
+          </div>
+        </fieldset>
+
+        <input class="sign-up-button" type="submit" value="Subscribe!">
+      </form>
+    </section>
+  </body>
+</html>
