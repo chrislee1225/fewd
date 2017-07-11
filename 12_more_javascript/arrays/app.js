@@ -5,7 +5,7 @@ var colors = ["black", "blue", "olive"];
 console.log(colors[0]);
 
 // Print the last color
-console.log(colors[2]);
+console.log(colors[ colors.length - 1 ]);
 
 // Print how many colors are in the array
 console.log(colors.length);
