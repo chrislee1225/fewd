@@ -1,5 +1,5 @@
 var colors = ["black", "blue", "olive"];
-//              0        1        2
+//               0       1        2
 
 // Print the first color
 console.log(colors[0]);
