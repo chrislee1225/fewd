@@ -16,6 +16,6 @@ console.log(colors.length);
 // console.log("I like the color " + colors[2]);
 // or
 
-for(var number = 0; number < colors.length; number++){
-  console.log("I like the color " + colors[number]);
+for(var i = 0; i < colors.length; i++){
+  console.log("I like the color " + colors[i]);
 }
