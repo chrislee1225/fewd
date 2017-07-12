@@ -1,3 +1,4 @@
+// functions have inputs and outputs
 var expressGratitude = function(name) {
   console.log("You have saved our lives, " + name);
   console.log("We are eternally grateful.");
