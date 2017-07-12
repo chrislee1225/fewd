@@ -11,6 +11,11 @@ console.log(colors[ colors.length - 1 ]);
 console.log(colors.length);
 
 // Print a sentence for each color in your array
-console.log("I like the color " + colors[0]);
-console.log("I like the color " + colors[1]);
-console.log("I like the color " + colors[2]);
+// console.log("I like the color " + colors[0]);
+// console.log("I like the color " + colors[1]);
+// console.log("I like the color " + colors[2]);
+// or
+
+for(var number = 0; number < colors.length; number++){
+  console.log("I like the color " + colors[number]);
+}

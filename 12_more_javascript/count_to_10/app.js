@@ -30,7 +30,7 @@ console.log("Finished!");
 //COUNT DOWN FROM 10
 console.log("Count down from 10");
 
-for(var number = 10; number >= 1; number = number - 1) {
+for(var number = 10; number >= 1; number = number--) {
   console.log(number);
 }
 
