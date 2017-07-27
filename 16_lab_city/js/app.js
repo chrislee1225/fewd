@@ -39,6 +39,10 @@ $(".new-tweed-text").keypress(function(event) {
   }
 });
 
-$(".navigation-icon").click(function() {
-  $("nav").toggleClass("navigation-enabled");
-})
+$(".navigation-icon").click(function(){
+  var navigation = $("nav.navigation");
+
+  navigation.toggleClass("navigation-enabled");
+
+
+});
